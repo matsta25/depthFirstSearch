@@ -1,0 +1,32 @@
+body {
+  font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+#cy {
+  height: 100%;
+  width: 75%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+}
+
+#rest {
+  padding: 20px;
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: aliceblue;
+}
+
+.rest-element{
+  padding: 30px 10px;
+}
